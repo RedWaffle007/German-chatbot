@@ -2,9 +2,11 @@ version: 0.2
 
 env:
   variables:
-    AWS_REGION: us-east-1                # Update to your AWS region
-    IMAGE_REPO_NAME: german-chatbot      # Update to your ECR repository name
+    AWS_REGION: us-east-1
+    IMAGE_REPO_NAME: german-chatbot
     IMAGE_TAG: latest
+    AWS_ACCOUNT_ID: 123456789012 # <-- Add your actual AWS Account ID here
+
 
 phases:
   pre_build:
