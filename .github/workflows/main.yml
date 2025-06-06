@@ -26,7 +26,5 @@ jobs:
       - name: Install PyTorch
         run: pip install torch --index-url https://download.pytorch.org/whl/cpu
 
-      - name: Run app
-        run: python backend/app.py
-  
-
+      - name: Test model load
+        run: python backend/test_model_load.py
