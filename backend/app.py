@@ -8,7 +8,7 @@ CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 # Load Phi-3 Mini model and tokenizer
 model_id = "microsoft/phi-3-mini-4k-instruct"
 tokenizer = AutoTokenizer.from_pretrained(model_id)
-model = AutoModelForCausalLM.from_pretrained(model_id)
+model = AutoModelForCausalLM.from_pretrained(model_id, trust_remote_code=True)
 chatbot = pipeline("text-generation", model=model, tokenizer=tokenizer)
 
 @app.route('/chat', methods=['POST', 'OPTIONS'])  # <-- match frontend
