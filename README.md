@@ -66,7 +66,3 @@ Visit the app at: `http://localhost:5000`
 ### Note:
 
 This project requires at least **2 GB of RAM** for inference and will not run on free-tier cloud platforms without optimization.
-
----
-
-Let me know if you'd like a markdown version for direct pasting into your GitHub repo.
