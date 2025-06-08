@@ -6,7 +6,7 @@ As a language enthusiast, I began learning **German** in 2021. I found that chat
 
 ## Overview
 
-A Dockerized conversational AI chatbot with a BMW-themed frontend, built using **Python**, **Flask**, and **Hugging Face Transformers**. This project showcases full-stack integration, continuous integration workflows, and deployment experimentation across cloud platforms.
+A Dockerized conversational AI chatbot with a BMW-themed frontend, built using **React**, **Python**, **Flask**, **Docker** and **Hugging Face Transformers**. This project showcases full-stack integration, continuous integration workflows, and deployment experimentation across cloud platforms.
 
 ## Features
 
